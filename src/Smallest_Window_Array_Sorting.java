@@ -1,3 +1,12 @@
+/*Given an integer array a of size N, find the smallest window in the array which will make the entire array sorted.
+
+Sample Input:
+8
+1 3 2 7 5 6 4 8
+Sample Output:
+1 6
+ */
+
 import java.util.Scanner;
 
 public class Smallest_Window_Array_Sorting {
@@ -30,3 +39,5 @@ public class Smallest_Window_Array_Sorting {
         System.out.println(leftindex+" "+rightindex);
     }
 }
+
+
